@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Security Scout",
   description: "Open-source AI security investigator for alerts, incidents, evidence, and response.",
+  icons: {
+    icon: '/icons/app/icon.svg',
+    shortcut: '/icons/app/favicon.png',
+    apple: '/icons/app/icon.svg',
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
