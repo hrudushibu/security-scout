@@ -1,71 +1,103 @@
-# security-scout
+# Security Scout
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org)
 
-> Security scanning and scouting tooling built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
+> **Open-source AI security investigator for alerts, incidents, evidence, and response.**
 
-## Repository
+Security Scout is an AI-powered investigation agent designed to help security teams investigate alerts and incidents. It gathers security evidence, correlates signals from multiple sources, builds incident timelines, explains findings, and recommends response actions—all while maintaining human control over actual response execution.
+
+## 🎯 What Problem Does This Solve?
+
+Security teams drown in alerts. Most are false positives, some are real incidents, but all require investigation. Security Scout helps by:
+
+- **Evidence Collection** — Automatically gather relevant logs, metrics, and context
+- **Signal Correlation** — Connect related alerts and events across systems
+- **Timeline Generation** — Build chronological incident timelines
+- **Finding Explanation** — Translate technical findings into clear explanations
+- **Response Recommendations** — Suggest remediation actions based on investigation
+- **Audit Trail** — Track every investigation step and decision
+
+Perfect for SOC teams who need to triage faster without sacrificing thoroughness.
+
+## 🚀 Repository
 
 [https://github.com/hrudushibu/security-scout](https://github.com/hrudushibu/security-scout)
 
-## Tech Stack
+## ✨ Core Features (Planned)
 
-- [Next.js 16](https://nextjs.org) — React framework with App Router
-- [React 19](https://react.dev) — UI library
-- [TypeScript 5](https://www.typescriptlang.org) — Type safety
-- [Tailwind CSS 4](https://tailwindcss.com) — Utility-first styling
-- [shadcn/ui](https://ui.shadcn.com) — Component library
+- 🔍 **AI-Assisted Investigation** — Intelligent alert triage and analysis
+- 🔗 **Alert Correlation** — Connect related security signals
+- 📊 **Evidence Collection** — Gather logs, metrics, and context automatically
+- ⏱️ **Timeline Generation** — Build incident timelines from events
+- 💡 **Finding Explanation** — Translate technical details for stakeholders
+- 🎯 **Response Recommendations** — Suggest remediation based on investigation
+- ✋ **Human-Controlled Actions** — Recommendations only, not autonomous execution
+- 📋 **Investigation Audit Trail** — Complete history of investigation steps
 
-## Getting Started
+## 🛠️ Tech Stack
+
+- **[Next.js 16](https://nextjs.org)** — App Router with React Server Components
+- **[React 19](https://react.dev)** — Modern React with concurrent features
+- **[TypeScript 5](https://www.typescriptlang.org)** — Type-safe development
+- **[Tailwind CSS 4](https://tailwindcss.com)** — Utility-first styling
+- **[shadcn/ui](https://ui.shadcn.com)** — Accessible component primitives
+
+## 📦 Getting Started
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/hrudushibu/security-scout.git
 cd security-scout
 
 # Install dependencies
 npm install
 
-# Set up environment
+# Set up environment variables
 cp .env.example .env.local
 
-# Start the dev server
+# Start the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) to access the application.
 
-## Project Structure
+## 🚧 Project Status
 
-```
-app/                  # Next.js App Router pages
-components/
-  app/                # AppHeader, AppFooter, AppLayout
-  console/            # ConsoleHeader, ConsoleSidebar, ConsoleLayout
-  ui/                 # shadcn/ui primitives
-lib/                  # Shared utilities
-```
+**Early Development** — This project is in active initial development. The investigation engine, AI integration approach, and evidence collection pipelines are being designed. Expect significant changes as the project evolves.
 
-## Scripts
+Current progress:
+- ✅ Project scaffolding and build configuration
+- ✅ Basic component structure
+- 🚧 Investigation workflow design
+- ⏳ Feature implementation (upcoming)
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start development server |
-| `npm run build` | Production build |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+## 🗺️ Roadmap
 
-## Contributing
+See [ROADMAP.md](./ROADMAP.md) for the full development plan.
 
-Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+## 🤝 Contributing
 
-## Security
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+Early-stage contributions are especially valuable—help design the investigation workflows and AI integration patterns.
+
+## 🔒 Security
 
 To report a vulnerability, see [SECURITY.md](./SECURITY.md) or email [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com).
 
-## License
+## 📬 Contact
+
+- **Email**: [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com)
+- **Issues**: [GitHub Issues](https://github.com/hrudushibu/security-scout/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/hrudushibu/security-scout/discussions)
+
+## 📄 License
 
 Licensed under the [Apache License 2.0](./LICENSE).
+
+---
+
+**Built to help security teams investigate faster and smarter**
