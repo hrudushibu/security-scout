@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Security Scout: Magnifying glass with a pulse/signal representing AI investigation -->
+  <rect width="64" height="64" rx="14" fill="#5B3DF5"/>
+  <!-- Magnifying glass circle -->
+  <circle cx="28" cy="28" r="13" stroke="white" stroke-width="3" fill="white" fill-opacity="0.15"/>
+  <!-- Handle -->
+  <line x1="37" y1="37" x2="50" y2="50" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Signal pulse inside lens -->
+  <polyline points="20,28 23,22 26,33 29,24 32,28 35,28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
