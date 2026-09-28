@@ -9,33 +9,9 @@
 
 Security Scout is an AI-powered investigation agent designed to help security teams investigate alerts and incidents. It gathers security evidence, correlates signals from multiple sources, builds incident timelines, explains findings, and recommends response actions—all while maintaining human control over actual response execution.
 
-## 🎯 What Problem Does This Solve?
-
-Security teams drown in alerts. Most are false positives, some are real incidents, but all require investigation. Security Scout helps by:
-
-- **Evidence Collection** — Automatically gather relevant logs, metrics, and context
-- **Signal Correlation** — Connect related alerts and events across systems
-- **Timeline Generation** — Build chronological incident timelines
-- **Finding Explanation** — Translate technical findings into clear explanations
-- **Response Recommendations** — Suggest remediation actions based on investigation
-- **Audit Trail** — Track every investigation step and decision
-
-Perfect for SOC teams who need to triage faster without sacrificing thoroughness.
-
 ## 🚀 Repository
 
 [https://github.com/hrudushibu/security-scout](https://github.com/hrudushibu/security-scout)
-
-## ✨ Core Features (Planned)
-
-- 🔍 **AI-Assisted Investigation** — Intelligent alert triage and analysis
-- 🔗 **Alert Correlation** — Connect related security signals
-- 📊 **Evidence Collection** — Gather logs, metrics, and context automatically
-- ⏱️ **Timeline Generation** — Build incident timelines from events
-- 💡 **Finding Explanation** — Translate technical details for stakeholders
-- 🎯 **Response Recommendations** — Suggest remediation based on investigation
-- ✋ **Human-Controlled Actions** — Recommendations only, not autonomous execution
-- 📋 **Investigation Audit Trail** — Complete history of investigation steps
 
 ## 🛠️ Tech Stack
 
